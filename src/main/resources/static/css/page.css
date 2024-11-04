@@ -1,0 +1,9 @@
+.user-message {
+    text-align: right;
+    background-color: #DCF8C6;
+}
+
+.system-message {
+    text-align: left;
+    background-color: #FFFFFF;
+}

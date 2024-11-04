@@ -1,0 +1,9 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: "docker build . -t growertech-java-api"
+  displayName: "Build Docker image"
